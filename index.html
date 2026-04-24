@@ -26,9 +26,9 @@
           </a>
 
           <div class="topbar__nav">
-            <a class="topbar__link" href="#about">О подходе</a>
-            <a class="topbar__link" href="#topics">Темы</a>
-            <a class="topbar__action" href="#contacts">Контакты</a>
+            <a class="topbar__link" href="#about" data-nav-link>О подходе</a>
+            <a class="topbar__link" href="#topics" data-nav-link>Темы</a>
+            <a class="topbar__action" href="#contacts" data-nav-link>Контакты</a>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@
             </div>
 
             <aside class="hero__visual" aria-label="Фотография Дины">
-              <div class="photo-composition">
+              <div class="photo-composition" data-parallax-photo>
                 <div class="photo-composition__ring photo-composition__ring--one" aria-hidden="true"></div>
                 <div class="photo-composition__ring photo-composition__ring--two" aria-hidden="true"></div>
                 <div class="photo-composition__leaf photo-composition__leaf--one" aria-hidden="true"></div>
@@ -194,12 +194,20 @@
       <div class="container">
         <div class="footer__inner">
           <span>Дина — клинический психолог и специалист по зависимостям</span>
-          <span>Creared by dzhankezzzz.<br>
+          <span>Created by Amina_Viva.<br>
             Copyright © 2026. All rights reserved.</span>
         </div>
       </div>
     </footer>
   </div>
+
+  <button class="back-to-top" type="button" aria-label="Наверх" data-back-to-top>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 19V5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M6.5 10.5L12 5L17.5 10.5" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <script src="script.js"></script>
 </body>
 </html>
 
